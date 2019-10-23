@@ -1,0 +1,14 @@
+Combat Log to XML Program:
+
+To-Done:
+Reads in .txt file
+Splits lines into strings (kind of)
+Converts file to be UTF-8
+
+To-Do:
+File is not reading in as intended
+Each combat action is one single line
+Could be one of 3 things:
+	After being converted, file is losing commas and therefor not splitting (check array size)
+	Using combat lines as Text files is causing them to be one line (check how TextNode works in XML)
+	Splitter is not recognizing it's splitting ability correctly (though it did on the test file, so not likely)
